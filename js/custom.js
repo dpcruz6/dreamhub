@@ -358,7 +358,7 @@ jQuery(function($){
 	  var zoom= $('#map_canvas').gmap('option', 'zoom');
       
       $('#map_canvas').gmap().bind('init', function(ev, map) {
-        $('#map_canvas').gmap('addMarker', {'position': '57.7973433,12.0502107', 'bounds': true});
+        $('#map_canvas').gmap('addMarker', {'position': '14.6348204,121.0221938', 'bounds': true});
         $('#map_canvas').gmap('option', 'zoom', 13);
       });
 
@@ -417,12 +417,15 @@ jQuery(function($){
 	// Bind click handler to menu items
 	// so we can get a fancy scroll animation
 	menuItems.click(function(e){
+	
 	  var href = $(this).attr("href"),
 	      offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
+	      
 	  $('html, body').stop().animate({ 
 	      scrollTop: offsetTop
 	  }, 900);
-	  e.preventDefault();
+	  e.preventDefault(); 
+	  	
 	});
 
 	// Bind to scroll

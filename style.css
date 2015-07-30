@@ -14,7 +14,7 @@ Tags: light, white, landing page,single page,Multipurpose,custom-colors,Bootstra
 	#BASIC TYPOGRAPHY
 	#HEADER
 	#ABOUT SECTION
-	#SERVICE SECTION
+	#project SECTION
 	#Works SECTION
 	#TEAM SECTION
 	#PRICING SECTION
@@ -193,7 +193,7 @@ img{
 .slider_overlay {
   background: none repeat scroll 0 0 #242434;
   height: 100%;
-  opacity: 0.8;
+  opacity: 0.0;
   position: absolute;
   right: 0;
   top: 0;
@@ -534,33 +534,33 @@ div[data-dimension] {
 }
 
 /*--------------------*/
-/* SERVICE SECTION */
+/* project SECTION */
 /*--------------------*/
 
-#service {
+#projects {
   display: inline;
   float: left;
   padding: 80px 0 70px;
   width: 100%;
 }
-.service_area{
+.project_area{
 	float: left;
 	display: inline;
 	width: 100%;
 	margin-top: 30px;
 }
-.single_service {
+.single_project {
 	display: inline;
 	float: left;
 	width: 100%;
 	padding: 0px 35px;
 	margin-bottom: 40px;
 }
-.service_iconarea{
+.project_iconarea{
 	text-align: center;
 	margin-bottom: 10px;
 }
-.service_icon { 
+.project_icon { 
   border-radius: 100%;
   color: #fff;
   font-size: 72px;
@@ -572,10 +572,10 @@ div[data-dimension] {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-.single_service>h2{
+.single_project>h2{
 	text-align: center;
 }
-.single_service > h2 span { 
+.single_project > h2 span { 
   border-radius: 100%;
   color: #fff;
   height: 150px;
@@ -583,14 +583,14 @@ div[data-dimension] {
   padding: 15px 0;
   width: 150px;
 }
-.single_service .service_title{
+.single_project .project_title{
   margin: 20px 0 20px;
   padding-bottom: 10px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
 }
-.single_service > .service_title:after {
+.single_project > .project_title:after {
   bottom: 0;
   content: "";
   height: 3px;
@@ -1407,8 +1407,8 @@ textarea .form-control {
   .about_slider{margin-top: 30px;}
   .single_iteam {text-align: center;}
   .single_iteam img {display: inline-block;}
-  .single_service .service_title {font-size: 18px;}
-  .single_service > .service_title:after {left: 33%;}
+  .single_project .project_title {font-size: 18px;}
+  .single_project > .project_title:after {left: 33%;}
   .single_price > h3 {font-size: 20px;line-height: 80px;}
   .single_price .price > h4 {font-size: 50px;line-height: 50px;}
   .price_features li {font-size: 13px;line-height: 15px;}
@@ -1454,7 +1454,7 @@ textarea .form-control {
 	.blog_slider .slick-prev {left: 86.5%;}
 	.og-close {z-index: 999;}
 	#about {padding: 50px 0;}
-	#service {padding: 50px 0 50px;}
+	#project {padding: 50px 0 50px;}
 	#works {padding: 0 0 50px;}
 	#team {padding: 50px 0;}
 	#pricing {padding: 50px 0;}
@@ -1465,7 +1465,7 @@ textarea .form-control {
 	#subscribe {padding: 50px  0;}
 	.social_nav {margin-top: 20px;text-align: center;}
 	.footer_left {text-align: center;}
-	.single_service > .service_title:after {left: 41%;}	
+	.single_project > .project_title:after {left: 41%;}	
   .wagwep-container ul#portfolio-filter li {width: auto;}
   .wagwep-container ul#portfolio-filter a {text-indent: 0;}
 
@@ -1487,7 +1487,7 @@ textarea .form-control {
 	.footer_right { margin-top: 20px;}
 	.social_nav { text-align: center;}
 	.testi_content:before {left: 30%;}	
-	.single_service > .service_title:after {left: 38%;}
+	.single_project > .project_title:after {left: 38%;}
 	.wagwep-container ul#portfolio-filter {padding: 0 3%;}	
  
 }
@@ -1509,14 +1509,14 @@ textarea .form-control {
 	.subscribe_mail {width: 70%;font-size: 15px;}
 	.subscr_btn {width: 29%;font-size: 15px;}
 	.heading h2 { font-size: 25px;line-height: 30px;}
-	.single_service > .service_title:after {left: 32%;}
+	.single_project > .project_title:after {left: 32%;}
 	.slides-navigation {display: none;}
 	
 }
 
 @media(max-width:320px ){
 	.slider_caption > h2 {font-size: 15px;line-height: 18px;}
-	.single_service > .service_title:after {left: 29%;}
+	.single_project > .project_title:after {left: 29%;}
 	.blog_slider .slick-prev {left: 70.5%;}
 	.subscr_btn {font-size: 11px;}
 	.slider_caption {margin-top: 34%;}  
