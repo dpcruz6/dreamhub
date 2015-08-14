@@ -417,15 +417,12 @@ jQuery(function($){
 	// Bind click handler to menu items
 	// so we can get a fancy scroll animation
 	menuItems.click(function(e){
-	
 	  var href = $(this).attr("href"),
 	      offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
-	      
 	  $('html, body').stop().animate({ 
 	      scrollTop: offsetTop
 	  }, 900);
-	  e.preventDefault(); 
-	  	
+	  e.preventDefault();
 	});
 
 	// Bind to scroll

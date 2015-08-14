@@ -14,8 +14,8 @@ Tags: light, white, landing page,single page,Multipurpose,custom-colors,Bootstra
 	#BASIC TYPOGRAPHY
 	#HEADER
 	#ABOUT SECTION
-	#project SECTION
-	#Works SECTION
+	#PROJECTS SECTION
+	#STORIES SECTION
 	#TEAM SECTION
 	#PRICING SECTION
 	#BLOG SECTION
@@ -193,7 +193,7 @@ img{
 .slider_overlay {
   background: none repeat scroll 0 0 #242434;
   height: 100%;
-  opacity: 0.0;
+  opacity: 0.1;
   position: absolute;
   right: 0;
   top: 0;
@@ -407,6 +407,12 @@ img{
 	line-height: 28px;
 	font-weight: 300;
 }
+
+.heading strong{
+	font-size: 26px;
+	line-height: 28px;
+	font-weight: 700;
+}
 .about_content{
 	float: left;
 	display: inline;
@@ -534,10 +540,10 @@ div[data-dimension] {
 }
 
 /*--------------------*/
-/* project SECTION */
+/* PROJECTS SECTION */
 /*--------------------*/
 
-#projects {
+#project {
   display: inline;
   float: left;
   padding: 80px 0 70px;
@@ -560,7 +566,7 @@ div[data-dimension] {
 	text-align: center;
 	margin-bottom: 10px;
 }
-.project_icon { 
+.project_icon {
   border-radius: 100%;
   color: #fff;
   font-size: 72px;
@@ -575,7 +581,7 @@ div[data-dimension] {
 .single_project>h2{
 	text-align: center;
 }
-.single_project > h2 span { 
+.single_project > h2 span {
   border-radius: 100%;
   color: #fff;
   height: 150px;
@@ -600,7 +606,7 @@ div[data-dimension] {
 }
 
 /*--------------------*/
-/* Works SECTION */
+/* STORIES SECTION */
 /*--------------------*/
 
 #stories {
@@ -613,10 +619,10 @@ div[data-dimension] {
 .counter_section {
   background-image: url("img/newlife.jpg");
   background-repeat: no-repeat;
-  background-size: 100%; 
+  background-size: 100%;
   background-position: 10% 45%;
   display: inline;
-  float: left; 
+  float: left;
   min-height: 350px;
   padding: 80px 0;
   position: relative;
@@ -1277,9 +1283,10 @@ textarea .form-control {
 }
 
 #contactFeature{
-	background-image: url("img/contact-feature-bg.jpg");
-	background-repeat: no-repeat;
-	background-size: 100% 100%;	
+	/*background-image: url("img/contact-feature-bg.jpg");*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: 100% 100%;	*/
+	background: none repeat scroll 0 0 #4f535e;
 	position: relative;
 	float: left;
 	display: block;
@@ -1408,7 +1415,7 @@ textarea .form-control {
   .about_slider{margin-top: 30px;}
   .single_iteam {text-align: center;}
   .single_iteam img {display: inline-block;}
-  .single_project .project_title {font-size: 18px;}
+  .single_service .project_title {font-size: 18px;}
   .single_project > .project_title:after {left: 33%;}
   .single_price > h3 {font-size: 20px;line-height: 80px;}
   .single_price .price > h4 {font-size: 50px;line-height: 50px;}
@@ -1455,7 +1462,7 @@ textarea .form-control {
 	.blog_slider .slick-prev {left: 86.5%;}
 	.og-close {z-index: 999;}
 	#about {padding: 50px 0;}
-	#project {padding: 50px 0 50px;}
+	#service {padding: 50px 0 50px;}
 	#stories {padding: 0 0 50px;}
 	#team {padding: 50px 0;}
 	#pricing {padding: 50px 0;}
@@ -1466,7 +1473,7 @@ textarea .form-control {
 	#subscribe {padding: 50px  0;}
 	.social_nav {margin-top: 20px;text-align: center;}
 	.footer_left {text-align: center;}
-	.single_project > .project_title:after {left: 41%;}	
+	.single_project > .project_title:after {left: 41%;}
   .wagwep-container ul#portfolio-filter li {width: auto;}
   .wagwep-container ul#portfolio-filter a {text-indent: 0;}
 
@@ -1523,4 +1530,3 @@ textarea .form-control {
 	.slider_caption {margin-top: 34%;}  
 	
 }
-
